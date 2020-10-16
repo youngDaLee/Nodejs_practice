@@ -29,7 +29,7 @@ var server = http.createServer(function(req, res){
 // 	console.log('웹 서버가 시작되었습니다. : %d', port);
 // });
 
-var host = '192.168.219.103';
+var host = '172.16.64.239';
 var port = 3000;
 server.listen(port, host, '511', function() {
 	console.log('웹 서버가 시작되었습니다. : %s, %d', host, port);
